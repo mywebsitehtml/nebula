@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/image1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 400px; /* Set the desired width */
+    height: 400px; /* Maintain aspect ratio */
+    display: block; /* Center the logo if needed */
+    margin: 0 auto; /* Center the logo horizontally */
+}
+
+.container {
+    text-align: center;
+    background: rgba(94, 46, 46, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 3 em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+.chat-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+   
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1 em;
+    font-style:unset;
+}
+
+.chat-input button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style:unset;
+}
+
+.chat-input button:hover {
+    background-color: #4682b4;
+}
